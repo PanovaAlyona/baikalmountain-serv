@@ -1,0 +1,1 @@
+web: ./build/install/app/bin/app -Xrunjdwp:transport=dt_socket,address=$IPADDR:9999
