@@ -40,5 +40,14 @@
     <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:1.7.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: postgresql:postgresql:9.0-801.jdbc4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.j256.ormlite:ormlite-core:5.0" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://D:/createDAO/mdaog-0.6.0a.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>

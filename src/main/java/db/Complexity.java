@@ -11,7 +11,7 @@ public class Complexity {
     @DatabaseField(generatedId = true)
     private Long id;
 
-    @DatabaseField
+    @DatabaseField (unique = true)
     private String complexity;
 
     public Complexity(){}

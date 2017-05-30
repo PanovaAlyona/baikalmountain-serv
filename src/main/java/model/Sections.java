@@ -5,9 +5,11 @@ package model;
  */
 public class Sections {
     private String description;
+    private String photo_section;
 
-    public Sections(String description){
+    public Sections(String description, String photo_section){
         this.description = description;
+        this.setPhoto_section(photo_section);
     }
 
     public String getDescription(){
@@ -20,4 +22,11 @@ public class Sections {
         this.description = description;
     }
 
+    public String getPhoto_section() {
+        return photo_section;
+    }
+
+    public void setPhoto_section(String photo_section) {
+        this.photo_section = photo_section;
+    }
 }
